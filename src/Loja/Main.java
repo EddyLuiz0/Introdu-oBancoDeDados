@@ -12,7 +12,7 @@ public class Main {
         }
         catch (SQLException e){//caso Dê erro, desviar para ca"
             System.out.println("Erro ao se conectar com o banco de dados"+e.getMessage());
-
+            System.out.println("Att");
         }
 
     }
